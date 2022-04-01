@@ -19,29 +19,21 @@ const Home = () => {
     getCards(searchName, page).then((response) => setCards(response.data));
   }, [searchName, page]);
 
- useEffect(() => {
-  
-   getSets().then((response) => setSets(response))
- }, []);
+  useEffect(() => {
+    getSets().then((response) => setSets(response));
+  }, []);
 
+  console.log(sets.data);
 
- console.log(sets.data)
-  
-console.log(cards.data)
- 
+  console.log(cards.data);
 
   return (
     <div>
-    
-  
-    <Header />
-    <Banner>
-    <SearchPokemon sendData={setSearchName} />
-
-    </Banner>
+      <Header />
+      <Banner>
+        <SearchPokemon sendData={setSearchName} />
+      </Banner>
       <ContainerHome>
-      
-   
         <ContainerList>
           {cards != "" ? (
             cards.data.map((card) => (

@@ -13,11 +13,6 @@ const SearchPokemon = (props) => {
     },
   });
 
- 
-
-
-
-
   return (
     <ContainerSearch>
       <form onSubmit={formik.handleSubmit}>
@@ -31,10 +26,8 @@ const SearchPokemon = (props) => {
           value={formik.values.name}
         />
 
-
-
         <Button variant="contained" type="submit">
-         Pesquisar
+          Pesquisar
         </Button>
       </form>
     </ContainerSearch>

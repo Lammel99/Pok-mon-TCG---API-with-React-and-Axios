@@ -6,7 +6,7 @@ export const ContainerHome = styled.section`
   align-items: center;
   gap: 50px;
   width: 100%;
- 
+
   padding: 50px 0;
   box-sizing: border-box;
 `;
@@ -36,13 +36,15 @@ export const ContainerList = styled.div`
 
 export const ContainerSearch = styled.div`
   box-sizing: border-box;
-  padding: 25px;
+  padding: 20px;
   width: 30%;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.65);
 
   form {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
 
   input {
@@ -56,14 +58,14 @@ export const ContainerSearch = styled.div`
   }
 
   button {
-    background-color: #f5f5f5;
-    color: #3c5aa6;
+    background-color: #3c5aa6;
+    color: white;
 
     height: 55px;
 
     :hover {
-      background-color: #3c5aa6;
-      color: white;
+      background-color: white;
+      color: #3c5aa6;
     }
   }
 `;

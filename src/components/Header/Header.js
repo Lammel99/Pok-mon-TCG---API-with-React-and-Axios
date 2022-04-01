@@ -11,7 +11,6 @@ const Header = () => {
         <img src={logo} />
 
         <ul>
-       
           <Link to="/lista">
             {" "}
             <li>Cartas</li>

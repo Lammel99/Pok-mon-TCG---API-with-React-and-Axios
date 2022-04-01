@@ -12,4 +12,5 @@ export const ContainerBanner = styled.section`
   justify-content: center;
   align-items: end;
   box-sizing: border-box;
+  padding-bottom: 25px;
 `;

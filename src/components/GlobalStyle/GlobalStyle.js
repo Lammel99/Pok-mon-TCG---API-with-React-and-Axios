@@ -8,7 +8,6 @@ body{
 padding: 0px;
 margin: 0px;
 font-size: 100%;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}`;
+font-family: 'Roboto', sans-serif;}`;
 
 export default GlobalStyle;

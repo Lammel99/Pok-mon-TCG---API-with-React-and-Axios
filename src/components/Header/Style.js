@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ConteinerHeader = styled.div`
+export const Container = styled.div`
   height: 80px;
   padding: 0 10%;
   box-sizing: border-box;
@@ -9,8 +9,8 @@ export const ConteinerHeader = styled.div`
   flex-wrap: nowrap;
   align-items: center;
   border-bottom: solid thin #2a75bb;
-  position:sticky;
-  top:0;
+  position: sticky;
+  top: 0;
   z-index: 10000;
 
   nav {
@@ -56,11 +56,7 @@ export const Icons = styled.div`
   gap: 15px;
   align-items: center;
 
-  svg {
-    color: #3c5aa6;
-
-    :hover {
-      color: #c7a008;
-    }
+  img {
+    width: 20px;
   }
 `;

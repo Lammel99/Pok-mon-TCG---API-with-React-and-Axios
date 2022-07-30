@@ -1,6 +1,6 @@
 import React from "react";
 import { useFormik } from "formik";
-import { FormControl, TextField, Button } from "@mui/material";
+import { TextField, Button } from "@mui/material";
 import { ContainerSearch } from "./Style";
 
 const SearchPokemon = (props) => {

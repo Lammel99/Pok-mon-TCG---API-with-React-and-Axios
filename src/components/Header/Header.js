@@ -1,36 +1,28 @@
 import React from "react";
 import logo from "../../assets/logo.png";
-import { Navigation, ConteinerHeader, Icons } from "./Style";
+import { Container, Icons } from "./Style";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import GitHubIcon from "@mui/icons-material/GitHub";
 import { Link } from "react-router-dom";
+import GithubLogo from "../../assets/github.png";
 const Header = () => {
   return (
-    <ConteinerHeader>
+    <Container>
       <nav>
         <img src={logo} />
 
         <ul>
-          <Link to="/lista">
-            {" "}
-            <li>Cartas</li>
-          </Link>
+          <li>Cartas</li>
+
           <li>Minha coleção</li>
         </ul>
-
         <Icons>
           <a href="https://github.com/Lammel99/Lammel99">
-            {" "}
-            <GitHubIcon />
+            <img src={GithubLogo} />
           </a>
-
-          <a href="https://www.instagram.com/mateus_lammel/">
-            {" "}
-            <InstagramIcon />
-          </a>
+          <a href="https://www.instagram.com/mateus_lammel/"></a>
         </Icons>
       </nav>
-    </ConteinerHeader>
+    </Container>
   );
 };
 
